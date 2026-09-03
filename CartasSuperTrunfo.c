@@ -38,10 +38,10 @@ int main() {
     printf("=== CADASTRO DA CARTA A ===\n");
 
     printf("Estado: ");
-    scanf(" %c", &Estado_A);
+    scanf(" %c[^\n]", &Estado_A);
 
     printf("Codigo: ");
-    scanf("%3s", Codigo_A);
+    scanf("%3s[^\n]", Codigo_A);
 
     printf("Cidade: ");
     scanf(" %49[^\n]", Cidade_A);
